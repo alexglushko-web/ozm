@@ -1,0 +1,288 @@
+img
+{
+    max-width: 100%;
+    height: auto;
+
+    vertical-align: middle;
+}
+
+.video
+{
+    position: relative;
+
+    overflow: hidden;
+
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video iframe,
+.video object,
+.video embed
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+@font-face
+{
+    font-family: 'icons';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/icons.woff') format('woff'), url('../fonts/icons.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'PFBagueSansPro';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/PFBagueSansPro-Regular.woff') format('woff'), url('../fonts/PFBagueSansPro-Regular.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'TTInterfaces';
+    font-weight: 300;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/TTInterfaces-Light.woff') format('woff'), url('../fonts/TTInterfaces-Light.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'TTInterfaces';
+    font-weight: 700;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/TTInterfaces-Bold.woff') format('woff'), url('../fonts/TTInterfaces-Bold.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'TTInterfaces';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/TTInterfaces-Regular.woff') format('woff'), url('../fonts/TTInterfaces-Regular.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'icons';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('fonts/icons.eot?aa9m0j');
+    src: url('fonts/icons.eot?aa9m0j#iefix') format('embedded-opentype'), url('fonts/icons.ttf?aa9m0j') format('truetype'), url('fonts/icons.woff?aa9m0j') format('woff'), url('fonts/icons.svg?aa9m0j#icons') format('svg');
+    font-display: block;
+}
+
+i
+{
+    font-family: 'icons' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    text-transform: none;
+
+    speak: never;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-right:before
+{
+    content: '\e907';
+}
+
+.icon-arrow-down:before
+{
+    display: block;
+
+    content: '\e907';
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+
+.icon-arrow-up:before
+{
+    display: block;
+
+    content: '\e907';
+    -webkit-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+            transform: rotate(270deg);
+}
+
+.icon-arrow-left:before
+{
+    display: block;
+
+    content: '\e907';
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.icon-tg:before
+{
+    display: inline-block;
+
+    margin-left: -3px;
+
+    content: '\e90d';
+}
+
+.icon-file:before
+{
+    content: '\e90f';
+}
+
+.icon-bulb:before
+{
+    content: '\e900';
+}
+
+.icon-chancellery:before
+{
+    content: '\e901';
+}
+
+.icon-document:before
+{
+    content: '\e903';
+}
+
+.icon-equipment:before
+{
+    content: '\e904';
+}
+
+.icon-gear:before
+{
+    content: '\e906';
+}
+
+.icon-instruments:before
+{
+    content: '\e908';
+}
+
+.icon-ladder:before
+{
+    content: '\e909';
+}
+
+.icon-map:before
+{
+    content: '\e90a';
+}
+
+.icon-nuts:before
+{
+    content: '\e90b';
+}
+
+.icon-share:before
+{
+    content: '\e90c';
+}
+
+.icon-vk:before
+{
+    content: '\e905';
+}
+
+.icon-close:before
+{
+    content: '\e90e';
+}
+
+.icon-search:before
+{
+    content: '\e902';
+}
+
+.icon-youtube:before
+{
+    content: '\ea9d';
+}
+
+*
+{
+    font-weight: 400;
+    line-height: 100%;
+
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    border-spacing: unset;
+    border-collapse: separate;
+    list-style-type: none;
+
+    -webkit-transition: .4s;
+         -o-transition: .4s;
+            transition: .4s;
+    text-decoration: none;
+
+    border: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    scroll-behavior: smooth;
+}
+
+a,
+input,
+button,
+textarea
+{
+    display: inline-block;
+
+    outline: none;
+}
+
+button
+{
+    cursor: pointer;
+
+    background: none;
+}
+
+.slick-list
+{
+    overflow: hidden;
+}
+
+.slick-track
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+@supports (-webkit-appearance:none)
+{
+}

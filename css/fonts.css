@@ -1,0 +1,52 @@
+@font-face
+{
+    font-family: 'icons';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/icons.woff') format('woff'), url('../fonts/icons.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'PFBagueSansPro';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/PFBagueSansPro-Regular.woff') format('woff'), url('../fonts/PFBagueSansPro-Regular.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'TTInterfaces';
+    font-weight: 300;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/TTInterfaces-Light.woff') format('woff'), url('../fonts/TTInterfaces-Light.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'TTInterfaces';
+    font-weight: 700;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/TTInterfaces-Bold.woff') format('woff'), url('../fonts/TTInterfaces-Bold.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'TTInterfaces';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/TTInterfaces-Regular.woff') format('woff'), url('../fonts/TTInterfaces-Regular.woff2') format('woff2');
+}
+@supports (-webkit-appearance:none)
+{
+}
